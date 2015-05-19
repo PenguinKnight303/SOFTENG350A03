@@ -1,0 +1,32 @@
+
+#Header {
+    width: 1700px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: 232px;
+    margin-right: 0px;
+    z-index: 10;
+    border-top-left-radius: 200px;
+    overflow: hidden;
+}
+
+
+#MenuBar {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    z-index: -1;
+    height: 1080px;
+    width: 250px;
+    background-color: rgba(255, 185, 37, 1);
+    
+}
+
+#MenuBarAdd {
+    position: absolute;
+    top: -8px;
+    z-index:-1;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(255, 185, 37, 1);
+}
