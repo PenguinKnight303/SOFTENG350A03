@@ -1,32 +1,215 @@
 
 #Header {
+    height: 255px;
     width: 1700px;
     margin-top: -10px;
     margin-bottom: 0px;
-    margin-left: 232px;
+    margin-left: 192px;
     margin-right: 0px;
     z-index: 10;
     border-top-left-radius: 200px;
+    border-bottom: rgba(178, 126, 13, 1) 4px solid;
     overflow: hidden;
 }
-
 
 #MenuBar {
     position: absolute;
     top: -8px;
-    left: -8px;
+    left: 0px;
     z-index: -1;
     height: 1080px;
-    width: 250px;
-    background-color: rgba(255, 185, 37, 1);
-    
+    width: 200px;
+    background: linear-gradient(
+      rgba(255, 185, 37, 0.4), 
+      rgba(255, 185, 37, 0.4)
+    ),
+      url(http://i.imgur.com/AFVrFox.jpg);
 }
 
 #MenuBarAdd {
     position: absolute;
     top: -8px;
+    left: 200px;
     z-index:-1;
-    height: 200px;
-    width: 400px;
-    background-color: rgba(255, 185, 37, 1);
+    height: 262px;
+    width: 200px;
+    background: linear-gradient(
+      rgba(255, 185, 37, 0.4), 
+      rgba(255, 185, 37, 0.4)
+    ),
+      url(http://i.imgur.com/AFVrFox.jpg);
+}
+
+#HomeButton {
+    position: absolute;
+    top: 262px;
+    z-index: 10;
+}
+
+.MenuButton {
+    height: 60px;
+    width: 200px;
+    left: 0px;
+    border-top: rgba(178, 126, 13, 1) 1px solid;
+    border-bottom: ;
+    z-index: 20;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+#ScheduleButton {
+    position: absolute;
+    top: 322px;
+}
+
+#RankingButton {
+    position: absolute;
+    top: 382px;
+}
+
+#PlayerButton {
+    position: absolute;
+    top: 442px;
+}
+
+#TeamButton {
+    position: absolute;
+    top: 502px;
+    border-bottom: rgba(178, 126, 13, 1) 1px solid;
+}
+
+.MenuButton:hover {
+    background-color: rgba(37, 116, 255, 0.6);
+    cursor: pointer;
+}
+
+#TitleBar {
+    position: absolute;
+    top: 257px;
+    left: 200px;
+    height: 116px;
+    width: 1700px;
+    
+    background-color: rgba(255, 185, 37, 0.1);
+    border-bottom: rgba(178, 126, 13, 1) 4px solid;
+}
+
+#Title {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: 'Milonga', cursive;
+    font-size: 50px;
+}
+
+#LoginBar {
+    position: absolute;
+    top: 222px;
+    right: 0px;
+    height: 35px;
+    width: 250px;
+    z-index: 1;
+    
+    background-color: rgba(178, 126, 13, 1);
+    border-top-left-radius: 200px;
+}
+
+#Greeting {
+    margin-right: 10px;
+    margin-top: 6px;
+    
+    text-align: right;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#BodyContent {
+    position: absolute;
+    top: 410px;
+    left: 240px;
+    height: 600px;
+    width: 1650px;
+    z-index: -1;
+}
+
+#ScheduleBox {
+    position: absolute;
+    height:600px;
+    width: 995px;
+}
+
+#NewsBox {
+    position: relative;
+    left: 1050px;
+    height: 600px;
+    width: 585px;
+}
+
+h2 {
+    
+    font-family: 'Milonga', cursive;
+    border-bottom: rgba(178, 126, 13, 1) 1px solid
+}
+
+#RegisterBox {
+    height: 336px;
+    border='0';
+}
+
+#Register {
+    position: absolute;
+    top: 80px;
+    height: 336px;
+    width: 995px;
+    z-index: -1;
+}
+
+#RegMain {
+    position: relative;
+    top: 220px;
+    margin-left: 20px;
+    
+    font-family: 'Milonga', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#RegSub {
+    margin-top: 230px;
+    margin-left: 30px;
+    
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+#Logout {
+    color: blue;
+    text-decoration: underline;
 }
