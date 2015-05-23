@@ -1,7 +1,7 @@
 
 #Header {
     height: 255px;
-    width: 1700px;
+    width: 1705px;
     margin-top: -10px;
     margin-bottom: 0px;
     margin-left: 192px;
@@ -75,7 +75,7 @@
 
 #TeamButton {
     position: absolute;
-    top: 502px;
+    top: 562px;
     border-bottom: rgba(178, 126, 13, 1) 1px solid;
 }
 
@@ -89,7 +89,7 @@
     top: 257px;
     left: 200px;
     height: 116px;
-    width: 1700px;
+    width: 1705px;
     
     background-color: rgba(255, 185, 37, 0.1);
     border-bottom: rgba(178, 126, 13, 1) 4px solid;
@@ -135,14 +135,14 @@
 
 #ScheduleBox {
     position: absolute;
-    height:600px;
+    height:550px;
     width: 995px;
 }
 
 #NewsBox {
     position: relative;
     left: 1050px;
-    height: 600px;
+    height: 550px;
     width: 585px;
 }
 
@@ -212,4 +212,147 @@ a:active {
 #Logout {
     color: blue;
     text-decoration: underline;
+}
+
+#SchedAnnoun {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    
+    border: rgba(178, 126, 13, 1) 4px solid;
+}
+
+#MessageButton {
+    position: absolute;
+    top: 502px;
+}
+
+
+
+#TeamTableDiv {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+}
+
+table {
+    width: 100%;
+    padding: 5px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+th {
+    padding: 10px;
+    background-color: rgba(255, 185, 37, 0.7);
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(178, 126, 13, 0.2);
+}
+tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+#Logo {
+    position: absolute;
+    top: 20px;
+}
+
+#Logoimg {
+    height: 180px;
+}
+
+.TopLeft {
+    border-top-left-radius: 25px;
+}
+
+#PlayersTableDiv {
+    position: relative;
+    left: 840px;
+    height: 550px;
+    width: 800px;
+}
+
+#PositionFilter {
+    font-size: 16px
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+#NameFilter {
+    font-size: 14px;
+    border-top-left-radius: 10px;
+}
+
+#FilterPlayers {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+}
+
+#PlayerTable {
+    position: absolute;
+}
+
+#PlayerTable td {
+    border: rgba(178, 126, 13, 0.6) 2px solid;
+}
+
+.Grabbable:hover {
+    background-color: rgba(37, 116, 255, 0.6);
+    cursor: -webkit-grab;
+}
+
+.InvCancButton {
+    position: absolute;
+    right: 30px;
+}
+
+#InvButton {
+    position: relative;
+    left: 466px;
+    visibility: hidden;
+}
+
+.ProfileButton {
+    position: absolute;
+    right: 30px;
+    
+    color: blue;
+    text-decoration: underline;
+}
+
+.ProfileButton:hover { 
+    cursor: pointer;
+}
+
+#Prof1 {
+    top: 47px;
+}
+
+#Prof2 {
+    top: 95px;
+}
+
+#DragTo {
+    border-color: white;
 }

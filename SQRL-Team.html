@@ -7,16 +7,34 @@
         <title>SQRL</title>
         <link rel="stylesheet" href="SQRL.css">
         <link href='http://fonts.googleapis.com/css?family=Milonga|Open+Sans' rel='stylesheet' type='text/css'>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src = 'TeamScript.js'></script>
+        
+        <script>
+            function allowDrop(ev) {
+                ev.preventDefault();
+            }
+
+            function drag(ev) {
+                
+            }
+        </script>
+        
     </head>
     <body>
         <div id ='Header'>
             <img id = 'Banner' src='http://i.imgur.com/STfAMuA.png?1' alt='SQRL'>
         </div>
         
+        <div id = 'Logo'>
+            <img id = 'Logoimg' src='http://i.imgur.com/nL2vFAi.png' alt='SQRL Logo'>
+        </div>
+        
         <div id = 'MenuBar'>
-            <div id = 'HomeButton' class = 'MenuButton'>
+            <a href='SQRL.html'><div id = 'HomeButton' class = 'MenuButton'>
                 <h3>Home</h3>
-            </div>
+            </div></a>
             <div id = 'ScheduleButton' class = 'MenuButton'>
                 <h3>Schedule</h3>
             </div>
@@ -26,22 +44,99 @@
             <div id = 'PlayerButton' class = 'MenuButton'>
                 <h3>Player</h3>
             </div>
-            <div id = 'TeamButton' class = 'MenuButton'>
-                <h3>Team</h3>
+            <div id = 'MessageButton' class = 'MenuButton'>
+                <h3>Messages</h3>
             </div>
+            <a href="SQRL-Team.html"><div id = 'TeamButton' class = 'MenuButton'>
+                <h3>Team</h3>
+            </div></a>
         </div>
         <div id = 'MenuBarAdd'>
         </div>
         
         <div id = 'LoginBar'>
-            <p id = 'Greeting'>Welcome, Nolan&nbsp&nbsp&nbsp&nbsp <a href="SQRL.html"><span>Logout</span></a> </p>
+            <p id = 'Greeting'>Welcome, Nolan&nbsp&nbsp&nbsp&nbsp <a href="SQRL.html"><span id = 'Logout'>Logout</span></a> </p>
         </div>
         
         <div id = 'TitleBar'>
             <h1 id = 'Title'>Team</h1>
         </div>
-        <div id= 'BodyContent'>
         
+        <div id= 'BodyContent'>
+            <div id = 'TeamTableDiv'>
+                <h2>Cloud Nine</h2>
+                
+                <table id ='TeamTable'>
+                    <tr>
+                        <th class = 'TopLeft'>Position</th>
+                        <th>Player</th>
+                    </tr>
+                    <tr>
+                        <td>Seeker</td>
+                        <td>Nolan West (c)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chaser</td>
+                        <td>Ron Slinkhard</td>
+                    </tr>
+                    <tr>
+                        <td>Chaser</td>
+                        <td>Lucius Evans - Pending
+                        <button class = 'InvCancButton'>Cancel</button></td>
+                    </tr>
+                    <tr>
+                        <td>Chaser</td>
+                        <td>Katie Umfraville</td>
+                    </tr>
+                    <tr>
+                        <td>Beater</td>
+                        <td>Reginald Kettleburn</td>
+                    </tr>
+                    <tr>
+                        <td>Beater</td>
+                        <td id = 'DragTo' ondrop='drop(event)' ondragover='allowDrop(event)'>
+                            <button id = 'InvButton'>Invite</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Keeper</td>
+                        <td>Jean Weasley - Pending
+                        <button class = 'InvCancButton'>Cancel</button></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id = 'PlayersTableDiv'>
+                 <h2>Available Players</h2>
+                
+                 <table id = 'PlayerTable'>
+                     <tr>
+                        <th class = 'TopLeft'>Player
+                        <form id = 'FilterPlayers' action="action_page.php">
+                        Position:&nbsp&nbsp
+                        <select id = 'PositionFilter' name = 'Position'>
+                            <option value="Seeker">Seeker</option>
+                            <option value="Chaser">Chaser</option>
+                            <option value="Beater">Beater</option>
+                            <option value="Keeper">Keeper</option>
+                        </select>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input id = 'NameFilter' type='text' name = 'PlayerName' placeholder = 'Search Name...'>
+                        </form>
+                        </th>
+                    </tr>
+                    <tr class = 'Grabbable' draggable='true' ondragstart='drag(event)'>
+                        <td>Aaron Seeker
+                        <p id = 'Prof1' class = 'ProfileButton'>Profile</p></td>
+                     </tr>
+                     <tr id = 'Row2' class = 'Grabbable'>
+                        <td>Abhishek Siekah
+                         <p id = 'Prof2' class = 'ProfileButton'>Profile</p>
+                         </td>
+                     </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
