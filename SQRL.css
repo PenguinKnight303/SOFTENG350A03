@@ -1,11 +1,10 @@
 
 #Header {
+    position: absolute;
     height: 255px;
-    width: 1705px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-left: 192px;
-    margin-right: 0px;
+    width: 1735px;
+    top: 0px;
+    left: 200px;
     z-index: 10;
     border-top-left-radius: 200px;
     border-bottom: rgba(178, 126, 13, 1) 4px solid;
@@ -14,7 +13,7 @@
 
 #MenuBar {
     position: absolute;
-    top: -8px;
+    top: 0px;
     left: 0px;
     z-index: -1;
     height: 980px;
@@ -42,7 +41,7 @@
 
 #HomeButton {
     position: absolute;
-    top: 262px;
+    top: 256px;
     z-index: 10;
 }
 
@@ -60,22 +59,22 @@
 
 #ScheduleButton {
     position: absolute;
-    top: 322px;
+    top: 316px;
 }
 
 #RankingButton {
     position: absolute;
-    top: 382px;
+    top: 376px;
 }
 
 #PlayerButton {
     position: absolute;
-    top: 442px;
+    top: 436px;
 }
 
 #TeamButton {
     position: absolute;
-    top: 562px;
+    top: 556px;
     border-bottom: rgba(178, 126, 13, 1) 1px solid;
 }
 
@@ -228,7 +227,7 @@ a:active {
 
 #MessageButton {
     position: absolute;
-    top: 502px;
+    top: 496px;
 }
 
 
