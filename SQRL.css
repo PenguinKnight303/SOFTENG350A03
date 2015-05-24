@@ -1,7 +1,7 @@
 
 #Header {
     height: 255px;
-    width: 1705px;
+    width: 1695px;
     margin-top: -10px;
     margin-bottom: 0px;
     margin-left: 192px;
@@ -17,7 +17,7 @@
     top: -8px;
     left: 0px;
     z-index: -1;
-    height: 980px;
+    height: 950px;
     width: 200px;
     background: linear-gradient(
       rgba(255, 185, 37, 0.4), 
@@ -89,7 +89,7 @@
     top: 257px;
     left: 200px;
     height: 116px;
-    width: 1705px;
+    width: 1695px;
     
     background-color: rgba(255, 185, 37, 0.1);
     border-bottom: rgba(178, 126, 13, 1) 4px solid;
@@ -128,21 +128,21 @@
     position: absolute;
     top: 410px;
     left: 240px;
-    height: 550px;
+    height: 520px;
     width: 1650px;
     z-index: -1;
 }
 
 #ScheduleBox {
     position: absolute;
-    height:550px;
+    height:520px;
     width: 995px;
 }
 
 #NewsBox {
     position: relative;
     left: 1050px;
-    height: 530px;
+    height: 510px;
     width: 585px;
 }
 
