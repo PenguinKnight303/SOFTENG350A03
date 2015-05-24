@@ -35,7 +35,6 @@ function drop(ev) {
     $("#InvButton").css("visibility", "visible");
     
     $("#InvButton").on("click", function () {
-        alert("ayylmao");
         $("#DragTo").html("Abe Beetah - Pending <button class = 'InvCancButton'>Cancel</button>");
     });
 }

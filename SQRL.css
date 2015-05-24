@@ -17,7 +17,7 @@
     top: -8px;
     left: 0px;
     z-index: -1;
-    height: 1080px;
+    height: 980px;
     width: 200px;
     background: linear-gradient(
       rgba(255, 185, 37, 0.4), 
@@ -128,7 +128,7 @@
     position: absolute;
     top: 410px;
     left: 240px;
-    height: 600px;
+    height: 550px;
     width: 1650px;
     z-index: -1;
 }
@@ -142,7 +142,7 @@
 #NewsBox {
     position: relative;
     left: 1050px;
-    height: 550px;
+    height: 530px;
     width: 585px;
 }
 
@@ -329,7 +329,7 @@ form {
 
 #InvButton {
     position: relative;
-    left: 466px;
+    left: 379px;
     visibility: hidden;
 }
 
@@ -355,4 +355,24 @@ form {
 
 #DragTo {
     border-color: white;
+}
+
+
+
+html {
+    
+}
+
+h5 {
+    margin-top: -10px;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4:hover {
+    cursor: pointer;
 }
