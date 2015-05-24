@@ -75,7 +75,6 @@
 #TeamButton {
     position: absolute;
     top: 556px;
-    border-bottom: rgba(178, 126, 13, 1) 1px solid;
 }
 
 .MenuButton:hover {
@@ -88,7 +87,7 @@
     top: 257px;
     left: 200px;
     height: 116px;
-    width: 1705px;
+    width: 1735px;
     
     background-color: rgba(255, 185, 37, 0.1);
     border-bottom: rgba(178, 126, 13, 1) 4px solid;
@@ -378,4 +377,25 @@ h4:hover {
 
 body {
     overflow: hidden;
+}
+
+#Instuctions {
+    position: relative;
+    top: 160px;
+    left: 20px;
+    
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}
+
+#DocButton {
+    position: absolute;
+    top: 616px;
+}
+
+#UsabilityButton {
+    position: absolute;
+    top: 676px;
+    border-bottom: rgba(178, 126, 13, 1) 1px solid;
 }

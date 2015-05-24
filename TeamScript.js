@@ -16,6 +16,7 @@ $(document).ready(function () {
         if (str.toLowerCase().indexOf("ab") >= 0 && combo === "Beater") {
             $("#PlayerTable td:eq(0)").html("Abe Beetah <p id = 'Prof1' class = 'ProfileButton'>Profile</p>");
             $("#PlayerTable tr:eq(2)").remove();
+            $("#Instructions").css("top", "110px");
         }
     });
 });
