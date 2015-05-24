@@ -103,12 +103,12 @@
 }
 
 #LoginBar {
-    position: absolute;
+    position: fixed;
     top: 222px;
-    right: 0px;
+    left: 1670px;
     height: 35px;
     width: 250px;
-    z-index: 1;
+    z-index: 20;
     
     background-color: rgba(178, 126, 13, 1);
     border-top-left-radius: 200px;
