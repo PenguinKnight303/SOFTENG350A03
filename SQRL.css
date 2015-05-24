@@ -380,8 +380,8 @@ body {
 }
 
 #Instuctions {
-    position: relative;
-    top: 160px;
+    position: absolute;
+    top: 190px;
     left: 20px;
     
     font-size: 14px;
